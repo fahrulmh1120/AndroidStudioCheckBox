@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGrupCoffeeType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></RadioGroup>
+    <TextView
+        android:id="@+id/labelCoffeeType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff993300"
+        android:text="Jenis Kopi"
+        android:textStyle="bold"></TextView>
+
+    <RadioButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radDecaf"
+        android:text="Decaf"></RadioButton>
+
+    <RadioButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radExpresso"
+        android:text="Expresso"></RadioButton>
+
+    <RadioButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radColombia"
+        android:text="Colombia"></RadioButton>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelCoffee"
+        android:background="#ff993300"
+        android:text="Tambah Topping ?"
+        android:textStyle="bold"></TextView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkCream"
+        android:text="Cream"
+        android:textStyle="bold"></CheckBox>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkSugar"
+        android:text="Sugar"
+        android:textStyle="bold"></CheckBox>
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="153px"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:textStyle="bold"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+</LinearLayout>
